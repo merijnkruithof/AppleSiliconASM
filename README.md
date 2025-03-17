@@ -13,6 +13,7 @@ In order to compile ASM files, you'll need the `as` binary. This is installed on
 Just run
 ```
 as -arch arm64 <file>.s -o <file>.o
+```
 
 You'll need a linker, because the Apple syscalls and other symbols such as other compiled
 .s files must be coupled before it can become a binary,
